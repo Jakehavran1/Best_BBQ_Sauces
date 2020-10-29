@@ -5,48 +5,83 @@
 
 <head>
 	<title>Merchandise</title>
+  <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css">
+
 </head>
- <link rel="stylesheet" type="text/css"b href="style.css">
 <body>
 
- <header>
-      <!-- Nav section -->
-       <nav>
-        <ul>
-          <li>
-            <a href="index.html">Home Page</a>
-          </li>
+  <header>
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Dads Barbeque</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <li>
-            <a href="about.html">About</a>
-          </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-          <li>
-            <a href="ourbbqsauces.html">Our BBQ Sauce Flavors and Backstory</a>
-          </li>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
 
-           <li>
-            <a href="assignment1.html">Herbs and Spices</a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
 
-          <li>
-            <a href="prices.html">Prices</a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ourbbqsauces.html">BBQ Sauce Flavors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="assignment1.html">Herbs and Spices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prices.html">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Merchandise.html">Merchandise</a>
+            </li>
 
-          <li>
-            <a href="Merchandise.html">Merchandise</a>
-          </li>
-        </ul>
+          </ul>
+
       </nav>
+      <!-- Nav section -->
+     
+    </header>
+    <div class="container">
       <h1> Merchandise </h1>
       <p>For our guest and customers that want to spend a lot of money at our store, we have just the right medicine for you.</p>
       <p>Our reward points system allows you to rack points up and claim cups, shirts, sweatshirts, koozies, and everyones favorite you can pick up a pack of beer!</p>
       <img src="Corona.jpeg"/>
       <img src="Busch.jpeg"/>
       <p>For our clothing options, we can provide you with a warm sweatshirt or a couple t-shirts to show off the branding!</p>
+       <div class="row">
+        <div class=" col-4">
       <img src="Clothing.jpeg"/>
+    </div>
+    <div class=" col-4">
       <img src="hoodie.jpeg"/>
+    </div>
+    <div class=" col-4">
       <img src="sweater.jpeg"/>
+    </div>
+    </div>
      <p> We offer merchandise because we want you to represent our brand every single day. Whether that is a sheatshirt or shirt outside, or showing your gear off on social media. Gift cards are also a great way for YOU to earn points, even if the gift is for somebody else! It is our honor to give you benefits if you show support for us on a daily basis. We also have a feature in our store that calculates how much money you have spent here in total in our store. Because it is a running total, it could change any hour on any day. We do that for the top 10 people that have spent the most money. We love to see it and so does our customers. </p>
       <p> Come on down and visit us and get your rewards today! </p>
+      <div class="alert alert-dark" role="alert">
+  Our merchandise is our fan favorite! Come check us out!
+</div>
+    </div>
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
+    </html>
